@@ -1,9 +1,10 @@
-
-function ProductRow({product:{name,price}}) {
+function ProductRow({ product: { name, price } }) {
   return (
-    <tr><td>{name}</td>
-    <td>{price}</td></tr>
-  )
+    <tr>
+      <td>{name}</td>
+      <td>{price}</td>
+    </tr>
+  );
 }
 
-export default ProductRow
+export default ProductRow;

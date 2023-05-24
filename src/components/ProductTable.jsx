@@ -5,7 +5,7 @@ function ProductTable(props) {
         backgroundColor:"lightgray"
     }
     const styleTable={
-        width:"90%"
+        width:"100%"
     }
   return (
    
